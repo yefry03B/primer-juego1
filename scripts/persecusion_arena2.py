@@ -56,24 +56,24 @@ COLUMNAS = ANCHO // TAM_CELDA
 ARCHIVO_GUARDADO = "progreso.json"
 
 
-jugador = pygame.transform.scale(pygame.image.load("main.py/assets/imagen/jugador.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
+jugador = pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/jugador.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
 
-enemigo = pygame.transform.scale(pygame.image.load("main.py/assets/imagen/enemigo.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
+enemigo = pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/enemigo.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
 
 arenas = [
-    pygame.transform.scale(pygame.image.load("main.py/assets/imagen/arena1.jpg").convert_alpha(),(800,600)),
-    pygame.transform.scale(pygame.image.load("main.py/assets/imagen/arena2.jpg").convert_alpha(),(800,600)),
-    pygame.transform.scale(pygame.image.load("main.py/assets/imagen/arena3.jpg").convert_alpha(),(800,600)),
-    pygame.transform.scale(pygame.image.load("main.py/assets/imagen/arena4.jpg").convert_alpha(),(800,600))
+    pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/arena1.jpg").convert_alpha(),(800,600)),
+    pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/arena2.jpg").convert_alpha(),(800,600)),
+    pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/arena3.jpg").convert_alpha(),(800,600)),
+    pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/arena4.jpg").convert_alpha(),(800,600))
 ]
 
-muro = pygame.transform.scale(pygame.image.load("main.py/assets/imagen/muro.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
+muro = pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/muro.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
 
-puerta_img = pygame.transform.scale( pygame.image.load("main.py/assets/imagen/puerta.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
+puerta_img = pygame.transform.scale( pygame.image.load("../main.py/assets/imagen/puerta.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
 
-fragmento = pygame.transform.scale(pygame.image.load("main.py/assets/imagen/fragmento.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
+fragmento = pygame.transform.scale(pygame.image.load("../main.py/assets/imagen/fragmento.png").convert_alpha(),(TAM_CELDA, TAM_CELDA))
 
-sonido_fragmento = pygame.mixer.Sound("main.py/assets/sounds/fragmento.wav")
+sonido_fragmento = pygame.mixer.Sound("../main.py/assets/sounds/fragmento.wav")
 
 
 # ==============================
