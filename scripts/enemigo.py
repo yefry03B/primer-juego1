@@ -1,3 +1,8 @@
+#---------------
+# ENEMIGO
+#---------------
+
+# YEFRY BERAS = 22-MISN-2-040
 
 class Enemigo:
 
