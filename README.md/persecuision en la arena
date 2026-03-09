@@ -1,0 +1,13 @@
+# Persecución en la Arena
+
+Juego creado con Python y Pygame.
+
+## Controles
+
+W A S D → mover
+F11 → pantalla completa
+ESC → menú
+
+## Ejecutar juego
+
+python main.py
